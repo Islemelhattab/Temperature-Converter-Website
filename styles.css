@@ -1,0 +1,85 @@
+body,h1{
+    padding:0px;
+    margin:0px;  
+    
+
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body {
+    background-image: url('/home/ibty/Desktop/code alpha1/img.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #5caee6;
+    color: rgb(230, 218, 218);
+
+}
+
+main {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="number"] {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#result {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Center the buttons */
+div > button {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Optional: Add some spacing */
+br {
+    clear: both;
+}
+
+
+
